@@ -1,10 +1,20 @@
 # main.py
 import os
 from datetime import datetime
+from dotenv import load_dotenv
 from src.graph import create_workflow
 
-CURRICULO_PATH = "/home/guiassys/devtools/repos/interview-guiassys/docs/resume/cv-guilherme-main.md"
-OUTPUT_DIR = "/home/guiassys/devtools/repos/job-hunter-langgraph/output"
+# Carrega as variáveis de ambiente do arquivo .env
+load_dotenv()
+
+CURRICULO_PATH = os.getenv(
+    "CURRICULO_PATH",
+    "/home/guiassys/devtools/repos/interview-guiassys/docs/resume/cv-guilherme-main.md",
+)
+OUTPUT_DIR = os.getenv(
+    "OUTPUT_DIR",
+    "/home/guiassys/devtools/repos/job-hunter-langgraph/output",
+)
 
 
 def main():
