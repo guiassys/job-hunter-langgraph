@@ -1,0 +1,30 @@
+# Python bytecode e caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes virtuais
+venv/
+ENV/
+env/
+.venv/
+
+# Variáveis de ambiente e segredos locais
+.env
+
+# Diretório de outputs e relatórios gerados
+output/
+*.log
+
+# Arquivos de IDE e Sistema Operacional
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
