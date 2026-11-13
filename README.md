@@ -37,6 +37,7 @@ job-hunter-langgraph/
 │   └── graph.py          # Montagem, interligação das arestas e compilação do StateGraph
 ├── .env                  # Variáveis de ambiente (URL do Ollama e modelo)
 ├── README.md             # Documentação do projeto
+├── .gitignore            # Contrato de arquivos a serem ignorados pelo Git
 ├── main.py               # Ponto de entrada leve (executa o fluxo e salva o relatório)
 └── requirements.txt      # Dependências do projeto
 ```
